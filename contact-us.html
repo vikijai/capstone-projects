@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contact page of youtube, where you can able to contact the youtube by giving your information">
+  <meta name="keywords" content="trending videos, viral video, Cricket video, latest video">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+
+  <!--Header Begin-->
+  <header id="myHeader">
+    <!-- renders from main.js -->
+  </header>
+  <!--Header End-->
+
+  <!--MainContent Begin-->
+  <!-- Form -->
+  <main>
+    <form class="contact-form">
+      <h2>About Youtube</h2>
+      <div class="field-wrapper">
+        <label for="nameInput">Enter your Name :</label>
+        <input id="nameInput" type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="phoneInput">Enter your Phone :</label>
+        <input id="phoneInput" type="number" placeholder="Enter your Phone Number" min="1000000000" max="9999999999"
+          required>
+      </div>
+      <div class="field-wrapper">
+        <label for="emailInput">Enter your Email :</label>
+        <input id="emailInput" type="email" placeholder="Enter your Email" required>
+      </div>
+      <div class="field-wrapper">
+        <label for="queryInput">Enter your Query :</label>
+        <textarea id="queryInput" placeholder="Enter your Query" cols="50" rows="5" minlength="10" maxlength="150"
+          required></textarea>
+      </div>
+      <div class="button-wrapper">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+  <!--MainContent End-->
+
+  <!--Footer Begin-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <!-- renders from main.js -->
+    </nav>
+    <p>&copy;Copyright 2023 | Vignesh</p>
+  </footer>
+  <!--Footer End-->
+  <script src="./assets/scripts/main.js"></script>
+</body>
+
+</html>

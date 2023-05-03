@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="Video page of youtube, where you can watch a video that has been clicked">
+  <meta name="keywords" content="trending videos, viral video, Cricket video, latest video">
+  <title>Video</title>
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+
+  <!--Header Begin-->
+  <header id="myHeader">
+    <!-- renders from main.js -->
+  </header>
+  <!--Header End-->
+
+  <!--MainContent Begin-->
+  <main>
+    <div class="flex-wrapper">
+      <div id="mainVideo">
+        <video controls>
+          <source src="./assets/videos/yt-videos.webm" type="video/mp4">
+        </video>
+        <h2 id="mainVideoTitle"></h2>
+        <div id="videoMeta">
+          <div class="video-meta-avatar">
+            <img src="https://placehold.co/32/000080/fff?text=NG" alt="Channel NG">
+          </div>
+          <div class="video-meta-channel">
+            <h3 id="videoChannel">Natural Geography</h3><i class="fa-regular fa-circle-check"></i>
+            <span>2.1M Subscribe</span>
+          </div>
+          <div class="video-meta-buttons">
+            <button type="button">Subscribe</button>
+            <button type="button" aria-label="Like"><i class="fa-regular fa-thumbs-up"></i>3.1k</button>
+            <button type="button" aria-label="Dislike"><i class="fa-regular fa-thumbs-down"></i></button>
+            <button type="button" aria-label="Share"><i class="fa-regular fa-share-from-square"></i>Share</button>
+          </div>
+        </div>
+        <div id="videoDescription">
+          <p>
+            <span id="videoViews">4.5M Views </span>
+            <span id="videoDate">3 months ago</span>
+          </p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+            make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic
+            typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+            containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+            versions
+            of Lorem Ipsum.
+          </p>
+        </div>
+        <div id="videoComments">
+          <div class="totalComments">
+            <span>327 Comments</span>
+            <span>Sort by</span>
+          </div>
+          <div class="add-comments">
+            <img src="https://via.placeholder.com/32/00FFFF/ffffff?text= " alt="A">
+            <input type="text" aria-label="AddComments" placeholder="Add a Comment">
+          </div>
+          <div class="reply-commets">
+            <!-- renders from video.js -->
+          </div>
+        </div>
+      </div>
+      <!-- Aside video Begins -->
+      <aside id="asideVideo">
+        <!-- renders from video.js -->
+      </aside>
+      <!-- Aside video Ends -->
+    </div>
+  </main>
+  <!--MainContent End-->
+
+  <!--Footer Begin-->
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <!-- renders from main.js -->
+    </nav>
+    <p>&copy;Copyright 2023 | Vignesh</p>
+  </footer>
+  <!--Footer End-->
+  <!--script-->
+  <script src="./assets/scripts/main.js"></script>
+  <script src="./assets/scripts/video.js"></script>
+</body>
+
+</html>

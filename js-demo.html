@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="myDiv">
+    <h1>styling the js code</h1>
+  </div>
+  <button onclick="handleClick()">change Div</button>
+  <hr>
+  <!--change content-->
+  <div id="myDiv2">
+    <h1>change the content</h1>
+  </div>
+  <button onclick="handleChangeContent()">change content</button>
+  <hr>
+  <!--add element-->
+  <h1>Adding an Element</h1>
+  <input id="menuInput" type="text" placeholder="enter the menu">
+  <button onclick="handleAddElement()">Add Element</button>
+  <ul id="menuList"></ul>
+  <hr>
+  <!--add skills-->
+  <h1>Adding an Array of Skills</h1>
+  <input id="skillInput" type="text" placeholder="enter the menu">
+  <button onclick="handleAddSkills()">Add skills</button>
+  <ul id="skillList"></ul>
+  <hr>
+  <!--Array of obj skills-->
+  <h1>Adding an Array of objects </h1>
+  <button onclick="handleSkill()">Add skills</button>
+  <ul id="skillListArray"></ul>
+  <hr>
+  <!--GeoLocation-->
+  <button type="button" id="locationBtn">Locate Me</button>
+  <div id="locationDisable">
+    <p>Latitude :<span id="latitude"></span></p>
+    <p>Longitude :<span id="longitude"></span></p>
+  </div>
+  <hr>
+  <!--WEb storage-->
+  <input id="pincodeInput" type="text" placeholder="enter the pincode">
+  <button type="button" id="savePincodeBtn">Save Pincode</button>
+  <button type="button" id="removePincodeBtn">Remove Pincode</button>
+  <!--script-->
+  <script src="./assets/scripts/js-demo.js"></script>
+</body>
+
+</html>
